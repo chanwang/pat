@@ -8,7 +8,7 @@ int main()
 	int d,count=0;
 	int n;
 	scanf("%d",&n);
-	int a[n/2+1];
+	int a[50001]={0};
 	a[0]=2;
 	for(i=3;i<=n;i++)
 	{
